@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <!-- fontawesome 6.1.1-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- fontawesome 6.0.0-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- fontawesome 5.15 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <link rel="stylesheet" href="projectstyle.css" />
+
+    <link rel="stylesheet" href="footercss.css">
+    <title>CHIDERA</title>
+  </head>
+
+  <body>
+    <!-- contact line-->
+    <div class="contact-line">
+      <i class="fa-solid fa-phone-flip"></i> 
+      <p><span class="callUs">Call Us:</span>  +234 8060201873  <span class="email"><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:ibechiderafranklin@gmail.com">ibechiderafranklin@gmail.com</a></span>  </p>
+          <p class="follow">Follow Us:</p> 
+          <!-- <i class="fa-brands fa-instagram"></i> -->
+          <i onclick="window.location.href='https://www.instagram.com/ibechidera/';" class="fa-brands fa-instagram"></i>
+          <!-- <i class="fa-brands fa-facebook-f"></i> -->
+          <i onclick="window.location.href='https://www.linkedin.com/in/chidera-ibe-bbbb211a0';" class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube-square"></i>
+          
+    </div> 
+    <!-- nav bar #21252b-->
+     
+
+    
+    <nav class="shadow navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#"><img src="imageLL.png" alt=""></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+         
+          <li class="nav-item">
+            <a class="nav-link home" href="../index.html">Home </a
+            >
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link about" href="../aboutPage/index.html">About </a
+            >
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link project" href="../projectsPage/index.html">Project </a
+            >
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link contact" href="#footer_contact">Contact </a
+            >
+          </li>
+      </div>
+    </nav>
+
+     
+    <div class="projectName">
+      <p> Projects</p>
+      <p class="projectName_location">This is what we do.</p>
+    </div>
+
+    <!-- bread crumbs -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Projects</li>
+      </ol>
+    </nav> 
+
+    <!-- filter btns -->
+
+    <div class="filterbtns">
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="all">All</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="academic">Academic</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="commercial">Commercial</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="highRise">High Rise</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="interior">Interior</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="masterPlan">Master Planning</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="religious">Religious</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark" data-id="residential">Residential</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark"data-id="others">Others</button>
+      <button class="btns_pro btn btn-lg btn-outline-dark"data-id="ontheboard">On The board</button>
+    </div>
+
+
+    <!-- filter project Images -->
+
+    <div class="filter_image_section">
+      <div class="container-fluid">
+      <div class="row">
+
+      <!-- <div onclick="window.location.href='${item.location_2}';"  class="col-lg-4 col-md-12 col-sm-12" >
+        <div class="image">
+          <img src="projectpageimages/1 RESIDENTIAL/BLOCKOFFLATSJAHIABUJA.jpg" class="image_img alpha" alt="">
+         <div class="image_overlay">
+         <a href="#"><i class="fa-solid fa-circle-plus"></i></a> 
+          <br>
+          <div class="image_title">
+            <i class="fa-solid fa-location-dot"></i> Jahi Abuja
+          </div>
+         </div>
+        </div>
+        <div class="location">
+          <p class="image_description">BLOCK OF FLAT JAHI</p>
+          <i class="fa-solid fa-location-dot"></i> <span>Jahi Abuja</span> 
+        </div>
+      </div> -->
+ 
+
+    </div>
+  </div>
+  </div>
+  
+<!-- Get in touch -->
+      
+<div class="getintouch">
+  <p> Want to talk to us? <span>Feel free</span></p>
+  <button onclick="window.location.href='mailto:ibechiderafranklin@gmail.com';" class="btn btn-lg btn-primary"><i class="fa-solid fa-envelope"> </i> Get in touch</button>
+</div>
+  
+   
+   <!-- footer -->
+
+   <footer id="footer_contact">
+      
+  
+
+    <div class="contact_"> 
+      <h1 class="contactHead">CHIDERA IBE ARCHITECTS</h1>
+      <p class="Address"> <i class="fa-solid fa-location-dot"></i> <span>Address:</span> 13 Lukulu Street, Wuse Zone, FCT Abuja.<br>
+        (LeJeune Road) Miami, FL, 33126 </p>
+      <p><i class="fa-solid fa-phone-flip"></i> <span>Phone:</span> +234 8060201873</p>
+      <p><i class="fa-solid fa-envelope"></i>  <span>Email:</span> <a href ="mailto:ibechiderafranklin@gmail.com">ibechiderafranklin@gmail.com</a></p>
+      <p><i class="fa-solid fa-clock"></i> Monday - Friday: 8:00am - 6:00pm</p>
+      </div>
+
+      <div class="contact_"> 
+        <h1 class="contactHead">CONTACT US</h1>
+        <form method = "POST" class="footer-form" enctype="text/plain" action ="mailto: ibechiderafranklin@gmail.com">
+          <div class="footer-grid">
+            <input type="text" name="name" placeholder= "Name">
+            <input class="email" type="email" name="email" placeholder="Email">
+          </div>
+          <textarea name = "message" class="footer-message" rows="3" cols="44" placeholder="Message"></textarea><br>
+          <button type = "submit" class="btn btn-primary">Send</button>
+        </form>
+        </div>
+
+      </div>
+
+  </footer>
+
+  <div class="copyright">
+    &copy <span class="currentYear"></span>. CHIDERA IBE ARCHITECTURE. All rights reserved. 
+  </div>
+
+  <!-- end of footer -->
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="projectapp.js" charset="utf-8"></script>
+  </body>
+</html>
