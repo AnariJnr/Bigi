@@ -1,0 +1,58 @@
+footer{
+	background-color: #21252b;
+	
+	line-height: 2em;
+
+}
+
+.contact_{
+	color: #858d91;
+	padding-top: 30px;
+}
+
+.contact_ p span{
+   color: #ccccd5;
+}
+
+.contactHead{
+	font-size: 20px;
+	color: white;
+	margin: 20px 0;
+}
+
+.contact-contain{
+	display: flex;
+    justify-content: space-evenly;
+}
+
+
+form input{
+background-color: #2a3037;
+margin: 15px 0 0 0;
+border: 0;
+
+}
+
+form input.email{
+margin: 0 0 0 10px;
+}
+
+form textarea{
+background-color: #2a3037;
+margin: 15px 0 0 0;
+}
+
+form input:focus{
+background-color: whitesmoke;	
+}
+
+form textarea:focus{
+background-color: whitesmoke;		
+}
+
+@media (max-width:1240px){
+.contact-contain{
+	display:block ;
+	justify-content: space-evenly;
+}	
+}
