@@ -262,7 +262,7 @@ const project = [
     img: "projectpageimages/7 RELIGIOUS/CATHOLIC SECRETARIAT OF NIGERIA CHAPEL, DURUMI, ABUJA (3).jpg",
     title: "CATHOLIC SECRETARIAT OF NIGERIA CHAPEL",
     location_1: "Durumi, Abuja",
-    location_2: "Durumi, Abuja",
+    location_2: "eachprojectpage/ReligiousPages/CatholicSecretariat/index.html",
   },
   
 
