@@ -439,7 +439,7 @@ if(windowHeight > contactLineheight){
   // projectName.style.marginTop = "225px";
 }else{
   topContactLine.classList.remove("none");
-   navbar.style.marginTop = "40px";
+   navbar.style.marginTop = "50px";
   // navbar.style.height = "191px";
   if(windowWidth<= 991){
     logo.style.height = "174px";

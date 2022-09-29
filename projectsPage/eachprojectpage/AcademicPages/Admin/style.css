@@ -105,7 +105,7 @@ body{
 }
 
 .navbar {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 
@@ -849,7 +849,7 @@ footer {
     width: 241px;
     height: 174px;
     margin-left: 50px;
-    padding: 15px 0px 0px 8px;
+    /* padding: 15px 0px 0px 8px; */
 }
 
 .projectName {
