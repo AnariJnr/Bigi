@@ -106,6 +106,8 @@ var projectName = document.querySelector(".projectName");
 console.log(navbarHeight);
 
 window.addEventListener("scroll", function(){
+  var windowWidth =  window.innerWidth;
+  // console.log(windowWidth);
  var windowHeight = window.pageYOffset;
 if(windowHeight > contactLineheight){
   topContactLine.classList.add("none");
@@ -118,8 +120,15 @@ if(windowHeight > contactLineheight){
   topContactLine.classList.remove("none");
    navbar.style.marginTop = "40px";
   // navbar.style.height = "191px";
-  logo.style.height = "174px";
-  logo.style.width = "241px";
+  if(windowWidth<= 991){
+    logo.style.height = "174px";
+    logo.style.width = "241px";
+  }
+
+  else{
+    
+  }
+ 
 }
 
 });
