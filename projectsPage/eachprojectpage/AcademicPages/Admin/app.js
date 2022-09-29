@@ -11,7 +11,7 @@ var windowWidth =  window.innerWidth;
 console.log(navbarHeight);
 
 window.addEventListener("scroll", function(){
-  var windowWidth =  window.innerWidth;
+  var windowWidth =  window.innerWidth; 
   // console.log(windowWidth);
  var windowHeight = window.pageYOffset;
 if(windowHeight > contactLineheight){
@@ -33,6 +33,7 @@ if(windowHeight > contactLineheight){
 }
 
 });
+
 
 
 
