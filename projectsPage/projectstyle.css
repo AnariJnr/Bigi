@@ -3,6 +3,10 @@ body{
 
 }
 
+.bg-dark {
+  background-color: #000000!important;
+}
+
 /* navbar */
 
 .none {
@@ -155,9 +159,7 @@ div ul {
   font-weight: 600;
 }
 
-.bg-dark {
-  background-color: #000000!important;
-}
+
 
 
 .navbar-expand-lg .navbar-collapse {
