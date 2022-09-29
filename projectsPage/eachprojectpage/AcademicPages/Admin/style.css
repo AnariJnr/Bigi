@@ -406,6 +406,12 @@ div ul {
    
 }
 
+h1.contactHead {
+  font-size: 2rem;
+  color: white;
+  margin: 20px 0;
+}
+
   .contact-line p.follow {
     color: grey;
     padding-left: 150px;
@@ -771,6 +777,12 @@ div.carousel-caption {
   background-color: #21252b;
   text-align: center;
   padding-top: 2%;
+}
+
+.contact_ {
+  color: #858d91;
+  padding-top: 30px;
+  padding: 4%;
 }
 
 /* fontSizes for mobile */
