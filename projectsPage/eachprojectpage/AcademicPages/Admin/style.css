@@ -3,6 +3,10 @@ body{
   
 }
 
+.bg-dark {
+  background-color: #000000!important;
+}
+
 /* navbar */
 
 /* .shadow{
@@ -160,7 +164,7 @@ div ul {
   font-size: 1.2rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover{
   
   color: #609ddb;
 }
@@ -168,7 +172,7 @@ div ul {
 
 
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
   font-size: 18px;
   font-weight: 600;
 }
@@ -215,6 +219,18 @@ div ul {
   transition: 0.4s;
   padding: 11px;
   margin-right: 10px;
+}
+
+.fa-brands.fa-twitter{
+ 
+  border-radius:3px; 
+  padding: 11px; 
+}
+
+.fa-brands.fa-twitter:hover{
+  background-color: #00acee;
+  color: white;
+  transition: 0.3s;
 }
 
 .fa-brands.fa-linkedin-in{ 
@@ -759,16 +775,16 @@ div.carousel-caption {
 /* fontSizes for mobile */
 
 @media (max-width: 991px){
-  .contact-line{
-    font-size: 1.5rem;
-  }
+  .contact-line {
+    font-size: 2rem;
+}
 
   .contact-line .fa-phone-flip {
    
     font-size: 1.5rem;
    
   }
-   .navbar-light .navbar-nav .nav-link {
+   .navbar-dark .navbar-nav .nav-link {
     font-size: 2.5rem;
     font-weight: 600;
 }
