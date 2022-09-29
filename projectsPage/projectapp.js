@@ -272,7 +272,7 @@ const project = [
     img: "projectpageimages/7 RELIGIOUS/ST MARK'S CATHOLIC CHURCH GADUWA (1).jpg",
     title: "ST MARK'S CATHOLIC CHURCH",
     location_1: "Gaduwa, Abuja",
-    location_2: "Gaduwa, Abuja",
+    location_2: "eachprojectpage/ReligiousPages/SaintMarks/index.html",
   },
 
   {
