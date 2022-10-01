@@ -902,8 +902,8 @@ footer {
 }
 
 .picture_write_up img{
-  width: 450px;
-  height: 450px;
+  width: 460px;
+  height: 460px;
   border-radius: 5px;
 }
 
@@ -918,5 +918,6 @@ footer {
 }
 
 .about_chidera p{
-  font-size: 22px;
+  font-size: 25px;
+  text-align: left;
 }
