@@ -899,13 +899,13 @@ footer {
 
 /* picture  */
 .picture_write_up{
-  padding: 5% 10% 5% ;
+  padding: 5% 3% 5% ;
   display: flex;
 }
 
 .picture_write_up img{
-  width: 400px;
-  /* height: 400px; */
+  width: 450px;
+  height: 450px;
   border-radius: 5px;
 }
 
@@ -913,6 +913,12 @@ footer {
   margin-left: 2%;
 }
 
-.about_chidera h1{
-  margin-bottom: 30px;
+.about_chidera h3{
+  margin-bottom: 5px;
+  border-bottom: 2px solid black;
+  width:15%;
+}
+
+.about_chidera p{
+  font-size: 22px;
 }
