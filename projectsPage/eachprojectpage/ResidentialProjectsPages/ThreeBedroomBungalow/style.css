@@ -3,6 +3,11 @@ body{
   
 }
 
+.bg-dark {
+  background-color: #000000!important;
+}
+
+
 /* navbar */
 
 /* .shadow{
@@ -100,7 +105,7 @@ body{
 }
 
 .navbar {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 
@@ -140,11 +145,11 @@ body{
   /* width: 150px;
   height: 100px;
   margin-left: 100px; */
-
-  width: 241px;
-  height: 174px;
+  width: 152px;
+  height: 110px;
   margin-left: 50px;
 }
+
 
 div ul {
   margin-right: 200px;
@@ -160,7 +165,7 @@ div ul {
   font-size: 1.2rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover{
   
   color: #609ddb;
 }
@@ -168,7 +173,7 @@ div ul {
 
 
 
-.navbar-light .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link{
   font-size: 18px;
   font-weight: 600;
 }
@@ -215,6 +220,18 @@ div ul {
   transition: 0.4s;
   padding: 11px;
   margin-right: 10px;
+}
+
+.fa-brands.fa-twitter{
+ 
+  border-radius:3px; 
+  padding: 11px; 
+}
+
+.fa-brands.fa-twitter:hover{
+  background-color: #00acee;
+  color: white;
+  transition: 0.3s;
 }
 
 .fa-brands.fa-linkedin-in{ 
@@ -389,6 +406,12 @@ div ul {
    
 }
 
+h1.contactHead {
+  font-size: 2rem;
+  color: white;
+  margin: 20px 0;
+}
+
   .contact-line p.follow {
     color: grey;
     padding-left: 150px;
@@ -446,7 +469,7 @@ div ul {
   justify-content: space-between;
   background-color: #568fcd;
   color: white;
-  margin-top: 232px;
+  margin-top: 176px;
   padding: 0px 7.5%;
   font-weight: 300;
   
@@ -616,7 +639,7 @@ div.carousel-caption {
 /*  description and details */
 
 .container .desc{
-  display: flex;
+  /* display: flex; */
   margin: 30px 0px 10%;
   justify-content: space-between;
 }
@@ -756,11 +779,17 @@ div.carousel-caption {
   padding-top: 2%;
 }
 
+.contact_ {
+  color: #858d91;
+  padding-top: 30px;
+  padding: 4%;
+}
+
 /* fontSizes for mobile */
 
 @media (max-width: 991px){
   .contact-line{
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .contact-line .fa-phone-flip {
@@ -768,7 +797,7 @@ div.carousel-caption {
     font-size: 1.5rem;
    
   }
-   .navbar-light .navbar-nav .nav-link {
+   .navbar-dark .navbar-nav .nav-link {
     font-size: 2.5rem;
     font-weight: 600;
 }
@@ -820,6 +849,7 @@ footer {
     width: 241px;
     height: 174px;
     margin-left: 50px;
+    /* padding: 15px 0px 0px 8px; */
 }
 
 .projectName {
