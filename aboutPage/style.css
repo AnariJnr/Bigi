@@ -806,6 +806,10 @@ div.carousel-caption {
   font-size: 3rem;
 }
 
+p.typed-about{
+  display: inline;
+}
+
 .breadcrumb {
   justify-content: center;
   padding: 0;
